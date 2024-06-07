@@ -6,7 +6,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 3. When prompted, enter the password. For level 0, the password is `bandit0`.
 4. You are now connected to the Bandit Level 0.
 
-### level0
+### level 0 
 
 **commands**:
 
@@ -15,7 +15,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL**
 
-### level1
+### level 0 to 1
 
 **commands**:
 
@@ -24,7 +24,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi**
 
-### level2
+### level 1 to 2 
 
 **commands**:
 
@@ -33,7 +33,8 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG**
 
-### level3
+### level 2 to 3
+
 
 **commands**:
 
@@ -44,7 +45,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
-### level4
+### level 3 to 4
 
 **commands**:
 
@@ -53,7 +54,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
-### level5
+### level 4 to 5
 
 **commands**:
 
@@ -80,7 +81,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR**
 
-### level6
+### level 5 to 6
 
 **commands**:
 
@@ -96,7 +97,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU**
 
-### level7
+### level 6 to 7
 
 **commands**:
 
@@ -106,7 +107,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S**
 
-### level8
+### level 7 to 8
 
 **commands**:
 
@@ -117,7 +118,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -**  TESKZC0XvTetK0S9xNwm25STk5iWrBvP
 
-### level9
+### level 8 to 9
 
 **commands**:
 
@@ -128,7 +129,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -**  EN632PlfYiZbn3PhVK3XOGSlNInNE00t
 
-### level10
+### level 9 to 10
 
 **commands**:
 
@@ -154,7 +155,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -**  G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
 
-### level11
+### level 10 to 11
 
 **commands**:
 
@@ -165,7 +166,29 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -**  6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
 
-### level18 diff
+
+### level 11 to 12
+
+**commands**:
+
+1. ssh [bandit11@bandit.labs.overthewire.org](mailto:bandit2@bandit.labs.overthewire.org) -p 2220
+    1. 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+2. ls
+    1. data.txt
+3. cat data.txt
+    1. Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi
+4. echo "Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]’
+    1. The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+- **password -**  JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+
+### level 12 to 13
+
+- password - wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+
+
+
+### level 17 to 18 diff
 
 password to login to from bandit17 - VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 
@@ -183,7 +206,7 @@ password to login to from bandit17 - VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 
 - **password -  hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg**
 
-### level19 .bashrc modified
+### level 18 to 19 .bashrc modified
 
 **commands**:
 
@@ -192,20 +215,5 @@ password to login to from bandit17 - VwOSWtCA7lRKkTfbr2IDh6awj9RNZM5e
 
 - **password -  awhqfNnAbc1naukrpqDYcF95h7HoMTrC**
 
-### level12
 
-**commands**:
 
-1. ssh [bandit11@bandit.labs.overthewire.org](mailto:bandit2@bandit.labs.overthewire.org) -p 2220
-    1. 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
-2. ls
-    1. data.txt
-3. cat data.txt
-    1. Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi
-4. echo "Gur cnffjbeq vf WIAOOSFzMjXXBC0KoSKBbJ8puQm5lIEi" | tr '[A-Za-z]' '[N-ZA-Mn-za-m]’
-    1. The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
-- **password -**  JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
-
-### level13
-
-- password - wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
