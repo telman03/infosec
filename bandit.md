@@ -6,7 +6,12 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 3. When prompted, enter the password. For level 0, the password is `bandit0`.
 4. You are now connected to the Bandit Level 0.
 
-### level 0 
+### level 0
+
+just connecting `ssh bandit0@bandit.labs.overthewire.org -p 2220`
+password for user bandit0 is `bandit0`
+
+### level 0 to 1
 
 **commands**:
 
@@ -15,7 +20,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL**
 
-### level 0 to 1
+### level 1 to 2
 
 **commands**:
 
@@ -24,7 +29,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi**
 
-### level 1 to 2 
+### level 2 to 3
 
 **commands**:
 
@@ -33,7 +38,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG**
 
-### level 2 to 3
+### level 3 to 4
 
 
 **commands**:
@@ -45,14 +50,7 @@ To connect to the Level 0 of Bandit on OverTheWire, you will need to use SSH (Se
 
 - **password -  2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
-### level 3 to 4
 
-**commands**:
-
-1. ls
-2. cat readme
-
-- **password -  2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe**
 
 ### level 4 to 5
 
